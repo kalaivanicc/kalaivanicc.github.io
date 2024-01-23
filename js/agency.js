@@ -56,19 +56,19 @@ $(function() {
 	[
 		{ label: 'Javascript/ReactJS', fa_icon: 'laptop', 
 			content: ' Experience in Functional and Object Oriented Programming style of Javascript.' },
-		{ label: 'Java/REST', fa_icon: 'coffee', content: 'Expertise in Java/J2EE technologies.' },
-		{ label: 'HTML/CSS', fa_icon: 'html5', content: 'Got good exposure to UI, HTML, CSS and JS enabled website.' }].forEach(function (service) {
+		{ label: 'HTML', fa_icon: 'html5', content: 'Got good exposure to UI, HTML and JS enabled website.' },
+		{ label: 'CSS', fa_icon: 'coffee', content: 'Expertise in Handcoded CSS and frameworks like Bootstrap.' }
+	].forEach(function (service) {
 		$('#services>.container>.text-center').append(serviceTemplate(service));
 	});
 	
 	//Append to the Technologies
 	[{label:'Javascript',value:8.0},
 	 {label:'React JS',value:8.5},
-	 {label:'Java/J2EE',value:8.5},
-	 {label:'API/REST',value:8.5},
 	 {label:'HTML5',value:8.0},
 	 {label:'CSS3',value:7.5},
 	 {label:'NodeJS',value:7.0},
+	 {label:'API/REST',value:8.5},
 	 ].forEach(function(tech){
 		$('.portfolio-item .row').append(techTemplate(tech));
 	});
@@ -77,33 +77,27 @@ $(function() {
 	[
 		{
 			image:'1',
-			duration:'July 2019 - Till Date',
-			role:'Senior Software Engineer(Frontend)',
-			company:'Valtix, Santa Clara, CA',
+			duration:'OCT 2018 - Till Date',
+			role:'UI Developer',
+			company:'Capitol One, Atlanta, GA',
 		},
 		{
 			image:'2',
-			duration:'Dec 2018 - July 2019',
-			role:'Senior Full Stack Developer',
-			company:'Walmart Labs, Sunnyvale, CA',
+			duration:'SEPT 2015 - OCT 2018',
+			role:'UI Developer',
+			company:'Carrington Connects, Aliso Viejo, CA',
 		},
 		{
 			image:'3',
-			duration:'Mar 2016 - Dec 2018',
-			role:'Senior Software Engineer',
-			company:'Equinix, Sunnyvale, CA',
+			duration:'Mar 2014 - SEPT 2015',
+			role:'UI Engineer',
+			company:'Google Partners, Irvine, CA',
 		},
 		{
 			image:'4',
-			duration:'Sep 2012 - Mar 2016',
-			role: 'Senior Software Engineer',
-			company:'Dynamic Healthcare Services, Irvine, CA',
-		},
-		{
-			image:'5',
-			duration:'July 2011 - Sep 2012',
-			role: 'Senior Software Engineer',
-			company:'CableVision, Long Island, NY',
+			duration:'JAN 2007 - OCT 2007',
+			role: 'Asst. System Engineer',
+			company:'TCS, Chennai, India',
 		}
 	].forEach(function(tech){
 		$('.timeline').append(timelineTemplate(tech));
